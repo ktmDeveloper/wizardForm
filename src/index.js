@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 
 ReactDOM.hydrate(
-  <App head='Wizard Form'/>,
+  <App/>,
   document.getElementById('root'),
 );
-
